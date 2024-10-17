@@ -1,6 +1,4 @@
 // Dependencies ===============
-import { type CreateUserInput } from "~/src/types/amplify";
-import { uploadData } from "aws-amplify/storage";
 import { createUserAccount } from "~/src/graphql/mutations";
 import { generateClient } from "aws-amplify/api";
 import { getUserAccount, getUsers } from "~/src/graphql/queries";
